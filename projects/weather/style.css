@@ -1,0 +1,36 @@
+body {
+	background: #085078;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to bottom, #85D8CE, #085078);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to bottom, #85D8CE, #085078); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	
+}
+
+#deg {
+	text-decoration:none;
+	color:white;
+}
+
+.title {
+	font-family:Tahoma;
+	font-size:72px;
+	text-align:center;
+}
+
+#name {
+	text-align:center;
+	font-size:48px;
+	font-family:Helvetica Neue;
+	margin-top:150px;
+}
+
+#temp {
+	text-align:center;
+	font-size:26px;
+	font-family:Tahoma;
+}
+
+#desc {
+	text-align:center;
+	font-size:26px;
+	font-family:Tahoma;
+}

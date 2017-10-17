@@ -1,0 +1,38 @@
+@media screen and (max-width: 1200px) { 
+    .display {
+        justify-content: center;
+    }
+ }
+
+ @media  screen and (max-width: 600px) { 
+    body {
+        max-width: 100%;
+        overflow-x: hidden;
+    } 
+    .element {
+        width: 100%;
+        float: left;
+    }
+    .wrap {
+        width: 100%;
+    }
+ 
+    #animated {
+        font-size: 18px;
+        top: 9%;
+    }
+    #hiCont {
+        height: 150px;
+    }
+	.hi {
+		font-size: 18px;
+	}
+	.contactme {
+		font-size: 58px;
+	}
+	.twitter, .facebook {
+		width: 120px;
+		height: 45px;
+		font-size: 18px;
+	}
+ }

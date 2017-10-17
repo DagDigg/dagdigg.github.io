@@ -1,0 +1,120 @@
+@font-face {
+    font-family: gecko;
+    src: url(fonts/Gecko.ttf);
+}
+
+@font-face {
+    font-family: typoldBook;
+    src: url(fonts/Typold-Book500.otf);
+}
+
+body {
+    background: #C04848;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #480048, #C04848);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #480048, #C04848); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */       
+}
+.title {
+    display: flex;
+    justify-content: center;
+}
+h1 {
+    font-family: gecko;
+    color: rgb(250, 159, 159);
+    font-size: 74px;
+}
+img {
+    align-self: center;
+    position: absolute;
+    padding-top: 60px;
+    padding-left: 120px;
+}
+
+.length {
+    font-family: typoldBook;
+    font-size: 22px;
+    color: white;
+}
+.wrap {
+    position: relative;
+    float: left;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.break {
+    margin-left: 10%;
+}
+
+.btn {
+    font-family: typoldBook;
+    width: 35px;
+    height: 35px;
+    text-decoration: none;
+    border: none;
+    color: white;
+    border-radius: 50%;
+    background-color: #FF6666;
+    display: inline-block;
+
+}
+
+.btn:hover {
+    background-color: #D14545;
+}
+
+.time {
+    font-family: typoldBook;
+    font-size: 25px;
+    color: white;
+}
+
+.pom {
+    float: right;
+    margin-right: 10%;
+}
+
+.timer {
+    font-family: typoldBook;
+    font-size: 75px;
+    width: 230px;
+    line-height: 230px;
+    text-align: center;
+    border-radius: 50%;
+    border: 5px solid #F56262;
+    background-color: #FFA28B;
+    color: #F34A4A;
+    margin-top: 0;
+}
+
+.cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.line-break {
+    width: 100%;
+}
+
+.rpp {
+    font-family: typoldBook;
+    width: 115px;
+    height: 55px;
+    text-decoration: none;
+    border: 2px solid #F56262;
+    color: white;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0);
+    display: inline-block;
+    margin: 0 8px 20px 8px;
+}
+
+.rppText {
+    font-size: 18px;
+}
+
+.rpp:hover {
+    background-color: #F56262;
+    color: black;
+}

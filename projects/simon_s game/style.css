@@ -1,0 +1,39 @@
+body {
+    background: teal;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+.boxes {
+    display: flex;
+    justify-content: center;
+
+}
+
+.box {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+}
+#box_1 {
+    background-color: #861A1A;
+}
+#box_2 {
+    background-color: #232358;
+}
+#box_3 {
+    background-color: #96961E;
+}
+#box_4 {
+    background-color: #B67B14;
+}
+
+.btns {
+    display: flex;
+    flex-direction: column;
+    width: 80px;
+    margin-top: 20px;
+}

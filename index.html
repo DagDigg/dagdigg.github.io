@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Script -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="typed.js/lib/typed.min.js" type="text/javascript"></script>
+	<script src="js/engine.js"></script>
+	<script src="js/scrollspy.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- Styling -->
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link href="css/media.css" rel="stylesheet" type="text/css" media="screen">
+	<title>DagDigg</title>
+</head>
+
+<body id="topp" data-spy="scroll" data-target=".navbar" role="navigation">
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header page-scroll">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse" aria-expanded="false">
+					<span class="sr-only">Toggle</span> 
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand page-scroll" href="#home">DagDigg</a>
+			</div>
+
+			<div class="collapse navbar-collapse navbar-ex1-collapse">
+				<ul class="nav navbar-nav">
+					<li class="hidden"><a class="page-scroll" href="#topp"></a></li>
+					<li><a class="page-scroll" href="#home">HOME</a></li>
+					<li><a class="page-scroll" href="#projects">PROJECTS</a></li>
+					<li><a class="page-scroll" href="#contact">CONTACT</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<section id="home">
+		<div class="desc">
+			<div class="wrapTitle">
+				<h1 class="title">Claudio D'Agostino</h1>
+			</div>
+			
+			<img class="image" src="imgs/IMG_0740.JPG" alt="image">
+			<div id="hiCont">
+				<p class="hi">Hi, I'm <span id="spec">DagDigg</span>! . Graduated at I.T.C. Gino Zappa in Italy, I'm interested in technology (and addicted). I created a never-published
+					game for the iPhone and I'm playing with HTML, CSS, Javascript, JQuery and React. Hope to do cool things with them!.
+				</p>
+			</div>
+	</section>
+
+	<section id="projects">
+		<div class="titleCont">
+			<h1 class="projTitle"><span class="bracket">{</span> Projects.</h1>
+		</div>
+
+		<div class="display">
+			<div class="element">
+				<h2 class="projName">Roundy</h2>
+				<h3 class="projDesc">A simple iOS project game.</h3>
+				<div class="wrap">
+					<div class="projCont" id="roundyCont">
+						<img src="imgs/roundyImg.png" id="roundyProj">
+						<div class="ball" id="ball-1"></div>
+						<div class="ball" id="ball-2"></div>
+						<div class="ball" id="ball-3"></div>
+						<div class="ball" id="ball-4"></div>
+						<div class="ball" id="ball-5"></div>
+					</div>
+				</div>
+			</div>
+
+			<div class="element">
+				<h2 class="projName">Pomodoro Clock</h2>
+				<h3 class="projDesc">Pomodoro Technique web app.</h3>
+				<div class="wrap">
+					<div class="projCont" id="pomodoroCont">
+						<div class="extBtn" id="extBtn1" onclick="location.href='projects/clock/index.html'">
+							<i class="fa fa-external-link fa-3x lh"></i>
+						</div>
+						<div class="blurColor" id="blurColor1"></div>
+
+						<div id="blur1">
+							<img src="imgs/screenPom.png" id="pomImg">
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="element">
+				<h2 class="projName">wikiViewer</h2>
+				<h3 class="projDesc">Wikipedia search box.</h3>
+				<div class="wrap">
+					<div class="projCont" id="wikiViewer">
+						<div class="extBtn" id="extBtn2" onclick="location.href='projects/wikiViewer/index.html'">
+							<i class="fa fa-external-link fa-3x lh"></i>
+						</div>
+						<div class="blurColor" id="blurColor2"></div>
+						<div id="blur2">
+							<img src="imgs/wikiSearch.png" class="wikiSearch" id="wikiSearch">
+							<span id="animated"></span>
+							<img src="imgs/wikiScreen_1.png" class="wikiScreens" id="wikiScreen1">
+							<img src="imgs/wikiScreen_2.png" class="wikiScreens" id="wikiScreen2">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="contact">
+		<div class="contact">
+			<div class="wrapTitle">
+				<h1 class="contactme">Contact Me</h1>
+			</div>
+
+			<div class="social">
+				<button class="twitter" onclick="location.href='http://www.twitter.com/DagDigg'"><i class="fa fa-twitter"></i> Twitter</button>
+				<button class="facebook" onclick="location.href='mailto:dagdigg@icloud.com'"><i class="fa fa-envelope-o"></i> Mail</button>
+			</div>
+		</div>
+	</section>
+
+	<div class="footer">
+		<p class="right">&copy 2017 Claudio D'Agostino</p>
+	</div>
+</body>
+
+</html>

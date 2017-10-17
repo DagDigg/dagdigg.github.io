@@ -1,0 +1,47 @@
+.userBoxOn {
+    width: 90%;
+    height: 80px;
+    background-color: #53EA49;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;  
+    border: 1px solid #389E31;  
+}
+
+.userBoxOff {
+    width: 90%;
+    height: 80px;
+    background-color: #C9C9C9;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 10px; 
+}
+
+img {
+    position: absolute;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 15px;
+    width:50px;
+    height: 50px;
+}
+.username {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 85px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+.desc {
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 85px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 38px;
+    text-align: center;
+    color: #9B1DA2; 
+}

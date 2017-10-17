@@ -1,0 +1,45 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="engine.js" type="text/javascript"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div class="title">
+        <h1>Pomodoro <br>Clock</h1>
+        <img src="img/tomato.png">
+    </div>
+    <div class="cont">
+        <div class="break">
+            <h4 class="length">Break length</h4>
+            <div class="wrap">
+                <button class="btn" id="minusBreak"><span class="fa fa-minus fa-2x"></span></button>
+                <span class="time" id="breakTime">05</span>
+                <button class="btn" id="plusBreak"><span class="fa fa-plus fa-2x"></span></button>
+            </div>
+        </div>
+        <div class="timerCont">
+            <h4 class="timer"><span id="minutes">25</span>:<span id="seconds">00</span></h4>
+        </div>
+        <div class="pom">
+            <h4 class="length">Pomodoro length</h4>
+            <div class="wrap">
+                <button class="btn" id="minusPom"><span class="fa fa-minus fa-2x"></span></button>
+                <span class="time" id="pomTime">25</span>
+                <button class="btn" id="plusPom"><span class="fa fa-plus fa-2x"></span></button>
+            </div>
+        </div>
+        <div class="line-break"></div>
+        <div class="wrap">
+            <button class="rpp" id="reset"><i class="fa fa-refresh fa-2x" aria-hidden="true"></i><span class="rppText"> RESET</span></button>
+            <button class="rpp" id="play"><i class="fa fa-play fa-2x" aria-hidden="true"></i><span class="rppText"> PLAY</span></button>
+            <button class="rpp" id="pause"><i class="fa fa-pause fa-2x" aria-hidden="true"></i><span class="rppText"> PAUSE</span></button>
+        </div>
+    </div>
+</body>
+
+</html>
