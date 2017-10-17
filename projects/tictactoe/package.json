@@ -1,6 +1,6 @@
 {
   "name": "tictactoe",
-  "homepage": "https://dagdigg.github.io/projects/tictactoe",
+  "homepage": "https://dagdigg.github.io/tictactoeproj",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
