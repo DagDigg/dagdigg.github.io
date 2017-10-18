@@ -6,7 +6,16 @@ $(document).ready(function () {
     var yourArr = [];
     var timeOut;
     var score = 0;
-
+    function loadSounds(url) {
+        $.ajax({
+            url: url,
+            success: function() {
+                $('.btns').toggle();
+                alert('complete');
+            }
+        });
+    }
+    loadSounds('https://s3.amazonaws.com/freecodecamp/simonSound1.mp3');
     function yourTurn() {
         $('.box').on('click', function (event) {
             event.stopPropagation();
@@ -39,7 +48,12 @@ $(document).ready(function () {
     }
 
     $('.strict').on('click', function () {
-        strict = true;
+        strict = !strict;
+        if(strict) {
+            $('.onoff').text('ON');
+        } else {
+            $('.onoff').text('OFF');
+        }
     });
 
     function changeColor(id) {

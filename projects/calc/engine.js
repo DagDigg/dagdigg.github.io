@@ -25,7 +25,7 @@ $(document).ready(function () {
                 break;
 
             case "=":
-                var tot = eval(arr.join(""));
+                var tot = eval(arr.join("")).toFixed(2);
                 arr = [];
                 arr.push(tot);
                 break;
@@ -58,7 +58,8 @@ $(document).ready(function () {
             if(arr[arr.length-1].toString().length < 11){
                 $("#current").text(arr[arr.length - 1]);
             } else {
-                $("#current").html("&nbsp;");
+                $("#current").html("max digits");
+                arr = [];
             }
         } else {
             $("#current").text(arr[arr.length - 2]);
